@@ -4,7 +4,12 @@
     aspect-ratio: 1.5 / 1;
 }
 
+.slider-container {
+    width: 100%;
+}
+
 .container {
+    padding: 0;
     position: relative;
 }
 
@@ -20,4 +25,19 @@
     left: calc(50% - 16px);
     bottom: 1rem;
     border-radius: 50%;
+}
+
+.mini-slider {
+    height: 100%;
+    width: 20%;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.mini-slider img {
+    display: block;
+    width: 100%;
+    aspect-ratio: 1.5 / 1;
+    opacity: .25;
 }

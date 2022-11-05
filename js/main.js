@@ -33,6 +33,7 @@ nextBtnEl.addEventListener( "click", function () {
     const lastIndex = images.length - 1;
     console.log(currentImgIndex);
 
+    // BONUS 1 
     if ( currentImgIndex > lastIndex ) {
         currentImgIndex = 0;
       }
@@ -45,6 +46,7 @@ prevBtnEl.addEventListener( "click", function () {
     currentImgIndex--;
     console.log(currentImgIndex);
 
+    // BONUS 1
     if ( currentImgIndex < 0 ) {
         currentImgIndex = 4;
       }
