@@ -1,21 +1,21 @@
-img {
+.slider-img {
     display: block;
     width: 100%;
     aspect-ratio: 1.5 / 1;
 }
 
-.slider-img {
+.container {
     position: relative;
 }
 
-.centered-t {
+.prev-btn {
     position: absolute;
     left: calc(50% - 16px);
     top: 1rem;
     border-radius: 50%;
 }
 
-.centered-b {
+.next-btn {
     position: absolute;
     left: calc(50% - 16px);
     bottom: 1rem;
